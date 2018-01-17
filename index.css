@@ -1,0 +1,37 @@
+html {
+  font-family: arial;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  background-color: background: -moz-linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ffff00), color-stop(100%, #00ffff)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* ie10+ */
+  background: linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#ffff00',GradientType=1 ); /* ie6-9 */
+  border: 3px solid black;
+  padding: 10px 20px;
+  font-size: 20px;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #000;
+  color: white;
+}
+
+div {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  margin: 10px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
