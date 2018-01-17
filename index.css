@@ -1,10 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: arial;
 }
 
-button {
-  display: block;
-  margin: 0 auto;
+body {
+  background-size: cover;
+  height: 100vh;
   background-color: background: -moz-linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* ff3.6+ */
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ffff00), color-stop(100%, #00ffff)); /* safari4+,chrome */
   background: -webkit-linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* safari5.1+,chrome10+ */
@@ -12,6 +17,12 @@ button {
   background: -ms-linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* ie10+ */
   background: linear-gradient(45deg, #ffff00 0%, #00ffff 100%); /* w3c */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffff', endColorstr='#ffff00',GradientType=1 ); /* ie6-9 */
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: #fff;
   border: 3px solid black;
   padding: 10px 20px;
   font-size: 20px;
@@ -23,14 +34,22 @@ button:hover {
   color: white;
 }
 
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+  letter-spacing: 6px;
+}
+
 div {
   float: left;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background-color: cornflowerblue;
-  margin: 10px;
-  line-height: 60px;
+  margin: 50px 5.5%;
+  line-height: 100px;
   text-align: center;
   font-weight: bold;
   color: white;
